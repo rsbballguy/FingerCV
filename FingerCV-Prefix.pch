@@ -1,0 +1,18 @@
+//
+//  FingerCV-Prefix.pch
+//  FingerCV
+//
+//  Created by Rahul Sundararaman on 10/15/15.
+//  Copyright © 2015 Rahul Sundararaman. All rights reserved.
+//
+
+#ifndef fingertrace_fingertrace_Prefix_pch
+#define fingertrace_fingertrace_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef __cplusplus
+#import <Accelerate/Accelerate.h>
+#endif
+
+#endif

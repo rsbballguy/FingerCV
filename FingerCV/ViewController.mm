@@ -7,15 +7,15 @@
 //
 
 #import "ViewController.h"
-#import <opencv2/opencv.hpp>
-#import <opencv2/imgproc.hpp>
-#import <opencv2/highgui.hpp>
-#import <opencv2/highgui/highgui.hpp>
-#include <opencv2/video/background_segm.hpp>
-#include <opencv2/imgcodecs.hpp>
-#include <opencv2/videoio.hpp>
-#include <opencv2/core/core.hpp>
-#include <opencv2/video.hpp>
+#include "opencv.hpp"
+#import "imgproc.hpp"
+#import "highgui.hpp"
+#import "highgui/highgui.hpp"
+#include "video/background_segm.hpp"
+#include "imgcodecs.hpp"
+#include "videoio.hpp"
+#include "core/core.hpp"
+#include "video.hpp"
 #include <iostream>
 #include <sstream>
 #include <stdio.h>

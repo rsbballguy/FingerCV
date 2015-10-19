@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <opencv2/videoio/cap_ios.h>
-#include <opencv2/opencv.hpp>
+//#include <opencv2/videoio/cap_ios.h>
+//#include <opencv2/opencv.hpp>
 
 @interface ViewController : UIViewController <CvVideoCameraDelegate>
 @property (strong, nonatomic) IBOutlet UIImageView *ImageView;
@@ -21,5 +21,5 @@
 - (cv::Mat)cvMatFromUIImage:(UIImage *)image;
 -(NSArray *)returnResidualPlot:(NSArray *)coor line:(int)myline width:(int)mywidth height:(int)myheight;
 -(BOOL)doesImageWork:(UIImage *)ima;
--(NSArray *)returnColors:(int)xval y:(int)yval
+-(NSArray *)returnColors:(int)xval y:(int)yval;
 @end
